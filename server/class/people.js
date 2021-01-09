@@ -4,8 +4,8 @@ class People {
         this.users = [];
     }
 
-    addUser(id, name, room) {
-        let user = { id, name, room };
+    addUser(id, name, room, photo) {
+        let user = { id, name, room, photo };
 
         this.users.push(user);
 
